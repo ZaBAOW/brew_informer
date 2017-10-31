@@ -1,6 +1,6 @@
-var BreweryDb = require('brewerydb-node');
-var brewdb = new BreweryDb('API_KEY');
-breweries();
+var requirejs = require(['require']);
+// var BreweryDb = require(['node_modules/brewerydb-node/index','node_modules/brewerydb-node/config']);
+// var brewdb = new BreweryDb('API_KEY');
 	//-------------------------------SELECT CASCADING-------------------------//
   	var currentCities=[];
 // This is a demo API key that can only be used for a short period of time, and will be unavailable soon. You should rather request your API key (free)  from http://battuta.medunes.net/ 	
